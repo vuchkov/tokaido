@@ -13,7 +13,7 @@ import (
 )
 
 var rgx = regexp.MustCompile("'(.*?)'")
-var validDrupalRange = ">=8.0.x"
+var validDrupalRange = ">=7.0.x"
 
 // CheckLocalDrupal ...
 func CheckLocalDrupal() error {
